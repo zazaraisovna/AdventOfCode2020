@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[69]:
-
-
 map = input().split()
-
-
-# In[71]:
-
 
 ## Part 1 (without function)
 
@@ -27,9 +19,6 @@ for i in range(1, len(map)):
     if map[i][col] == '#': ## tree on the way
         cnt += 1
 print('Right 3, down 1: ' + str(cnt))
-
-
-# In[73]:
 
 
 ## Part Two
@@ -54,10 +43,3 @@ def treecount(r, d):
             cnt += 1
     return cnt
 print(treecount(1, 1) * treecount(3, 1) * treecount(5, 1) * treecount(7, 1) * treecount(1, 2))
-
-
-# In[ ]:
-
-
-
-

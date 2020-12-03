@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[39]:
-
-
 ## Advent of code
 ##Day 1
 A = input().split()
@@ -22,4 +19,3 @@ for i in range(len(A)):
             if i != j and j != k and A[i] + A[j] + A[k] == 2020:
                 m3 = A[i] * A[j] * A[k]
 print(m3)
-

@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[198]:
-
-
 passwords = input().split()
 a = []
 for i in range(0, len(passwords)-2, 3):
@@ -27,10 +24,6 @@ for k in range(0, len(a)):
         valid_cnt  +=1
 print(valid_cnt)
 
-
-# In[200]:
-
-
 ## second
 
 b = []
@@ -48,4 +41,3 @@ for l in range(0, len(a)):
     if (third[frm] == second and third[to] != second) or (third[frm] != second and third[to] == second):
         valid2_cnt  += 1
 print(valid2_cnt)
-
